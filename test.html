@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form>
+        <div>
+            <label for="nom"> Nom : </label>
+            <input type="text" id="nom" placeholder="insérer votre nom svp" />
+        </div>
+
+        <div>
+            <label for="prenom"> Prenom : </label>
+            <input type="text" id="prenom" />
+        </div>
+
+        <div>
+            <label for="date"> Date De Naissance : </label>
+            <input type="date" id="date" />
+        </div>
+
+        <div>
+            <label for="cin"> CIN : </label>
+            <input type="text" id="cin" />
+        </div>
+
+        <div>
+            <label for="tel"> TEL : </label>
+            <input type="number" id="tel" />
+        </div>
+        
+        <div>
+            <label for="genre"> Genre : </label>
+            Homme <input type="radio" name="hf" value="homme" />
+            Femme <input type="radio" name="hf" value="femme" checked/>
+        </div>
+        
+        <div>
+            <label for="interet"> Interet : </label>
+            Sport <input type="checkbox" value="sport"  />
+            Musique <input type="checkbox" value="musique" />
+        </div>
+        <div>
+            <label for="natio"> Nationnalité : </label>
+            <select id="Natio">
+                <option value="" selected> </option>
+                <option value="Tunisienne" >Tunisienne</option>
+                <option value="Françcaise">Françcaise</option>
+                <option value="Américaine">Américaine</option>
+            </select>
+        </div>
+        <div>
+            <label for="cp">Couleur préféré :</label>
+            <input type="color" id="cp" />
+        </div>
+        <div>
+            <label for=" cv">CV :</label>
+            <input type="file" />
+        </div>
+        <div>
+            <label for="bio">BIO :</label>
+            <textarea id="bio" rows="5" cols="30"></textarea>
+
+        </div>
+        <div>
+            <input type="submit" value="s'inscrir" />
+            <input type="reset" value="par défaut" />
+        </div>
+    </form>
+</body>
+
+</html>
